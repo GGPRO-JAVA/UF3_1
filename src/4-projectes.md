@@ -1,6 +1,6 @@
-## 3. Gestió de Projectes
+# 4. Gestió de Projectes
 
-### 3.1. Concepte de Projecte
+## 4.1. Concepte de Projecte
 
 Un **projecte** és un conjunt organitzat de fitxers font, recursos, configuracions i metadades que defineixen una aplicació o llibreria. Els projectes proporcionen:
 
@@ -10,7 +10,7 @@ Un **projecte** és un conjunt organitzat de fitxers font, recursos, configuraci
 - **Configuració de depuració** i execució
 - **Metadades del projecte** com versió, autor, descripció
 
-### 3.2. Tipus de Projectes
+## 4.2. Tipus de Projectes
 
 Els IDEs solen oferir diferents tipus de plantilles de projecte:
 
@@ -20,7 +20,7 @@ Els IDEs solen oferir diferents tipus de plantilles de projecte:
 - **Llibreries**: Components reutilitzables per a altres projectes
 - **Aplicacions mòbils**: Projectes específics per a plataformes mòbils
 
-### 3.3. Creació d'un Nou Projecte
+## 4.3. Creació d'un Nou Projecte
 
 El procés típic per a crear un projecte inclou:
 
@@ -32,7 +32,7 @@ El procés típic per a crear un projecte inclou:
 
 ::: tabs
 == Java
-
+```
 // Exemple d'estructura típica d'un projecte:
 MeuProjecte/
 ├── src/
@@ -45,9 +45,10 @@ MeuProjecte/
 ├── resources/
 ├── build/
 └── README.md
+```
 :::
 
-### 3.4. Sistemes de Construcció
+## 4.4. Sistemes de Construcció
 
 Els IDEs integren diferents sistemes de construcció per a automatitzar el procés de compilació:
 
@@ -57,7 +58,7 @@ Els IDEs integren diferents sistemes de construcció per a automatitzar el proc�
 
 **Sistemes específics per llenguatge**: Com Maven o Gradle per a projectes Java, NPM per a JavaScript.
 
-### 3.5. Configuració de Compilació
+## 4.5. Configuració de Compilació
 
 La configuració típica inclou:
 
@@ -67,7 +68,7 @@ La configuració típica inclou:
 - **Directoris de sortida** per als fitxers compilats
 - **Scripts de construcció** personalitzats
 
-### 3.6. Procés de Compilació
+## 4.6. Procés de Compilació
 
 Els IDEs ofereixen diferents opcions de compilació:
 
@@ -82,13 +83,14 @@ Els IDEs ofereixen diferents opcions de compilació:
 ::: tabs
 == Java
 
-// Exemple de comandes típiques de construcció:
-// Compilar el projecte: javac -d build src/*.java
-// Executar l'aplicació: java -cp build NomDeLaClasse
-// Crear un arxiu JAR: jar cf aplicacio.jar -C build .
+Exemple de comandes típics de compilació:
+- Compilar el projecte: javac -d build src/*.java
+- Executar l'aplicació: java -cp build NomDeLaClasse
+- Crear un arxiu JAR: jar cf aplicacio.jar -C build.
+
 :::
 
-### 3.7. Configuració d'Execució
+## 4.7. Configuració d'Execució
 
 Els IDEs permeten configurar diferents perfils d'execució:
 
@@ -98,7 +100,7 @@ Els IDEs permeten configurar diferents perfils d'execució:
 - **Configuració de memòria** i altres paràmetres JVM
 - **Perfils diferents** per a desenvolupament, proves i producció
 
-### 3.8. Execució de Programes
+## 4.8. Execució de Programes
 
 Les opcions d'execució típiques inclouen:
 
@@ -110,7 +112,7 @@ Les opcions d'execució típiques inclouen:
 
 **Execució de proves**: Llança suites de proves automatitzades.
 
-### 3.9. Gestió de la Consola de Sortida
+## 4.9. Gestió de la Consola de Sortida
 
 Els IDEs proporcionen una consola integrada que mostra:
 

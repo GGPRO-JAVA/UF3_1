@@ -1,171 +1,107 @@
 # Exercicis
 
-## Exercicis - Nivell bàsic
+### **3.2.2. Extensions per a productivitat**
 
-### Exercici 1
+Aquestes extensions ajuden a treballar més ràpidament:
 
-**a)** Escriu un programa que imprimisca l'àrea d'un quadrat de costat 5.  
-**b)** Modifica'l perquè el costat del quadrat s'introduïsca per teclat i es mostre l'àrea corresponent.  
-**c)** Afig-hi el càlcul i la mostra del perímetre del mateix quadrat.  
+- **Autocompletat intel·ligent**: Prediu què vols escriure
+- **Formatat automàtic**: Organitza el codi de manera llegible
+- **Navegació ràpida**: Troba arxius i funcions molt ràpidament
+- **Refactorització**: Canvia noms de variables en tot el projecte automàticament
 
-### Exercici 2
+### **3.2.3. Extensions per a col·laboració**
 
-**a)** Escriu un programa que llig dos nombres i només mostre la seua suma.  
-**b)** Ampli­a'l perquè també mostre la resta dels dos nombres.  
-**c)** Afig-hi el producte i la divisió, mostrant cada resultat amb un missatge clar.  
-**d)** Afig que, en cas de dividir per zero, no farà l'operació i mostrarà un missatge indicant de l'error.  
+Quan treballes en equip:
 
-### Exercici 3
+- **Control de versions**: Gestiona canvis en el codi compartit
+- **Comentaris col·laboratius**: Permet fer anotacions per a companys
+- **Sincronització**: Comparteix configuracions entre diferents ordinadors
 
-**a)** Escriu un programa que demane l'edat per teclat i, si l'usuari és major d'edat (≥18), mostre "Ets major d'edat".  
-**b)** Modifica'l perquè, en cas contrari, mostre "Ets menor d'edat".  
-**c)** Afig-hi una comprovació addicional: si l'edat introduïda és negativa, que mostre "Error: edat invàlida".  
+## 3.3. Exemples d'extensions populars en VS Code
 
-## Exercicis - Nivell mitjà
+VS Code és un dels editors més populars i té milers d'extensions disponibles:
 
-### Exercici 4
+### **Per a principiants:**
 
-En el departament de secretaria t'han demanat un programa per convertir notes numèriques en valoracions alfabètiques.
+1. **Prettier** - Formatat automàtic de codi
+   - Fa que el codi es veja ordenat i professional
+   - Funciona amb molts llenguatges diferents
 
-**a)** El programa llig una nota (0–10) i escriu la corresponent valoració:
+2. **Auto Rename Tag** - Per a HTML
+   - Quan canvies una etiqueta HTML, canvia automàticament la de tancament
+   - Evita errors comuns
 
-- 0–2: Molt deficient
-- 3–4: Insuficient
-- 5–6: Bé
-- 7–8: Notable
-- 9–10: Excel·lent
+3. **Bracket Pair Colorizer** - Coloreja parèntesis
+   - Cada parella de parèntesis té un color diferent
+   - Ajuda a veure l'estructura del codi
 
-**b)** Si la nota està fora de l'interval 0–10, ha de mostrar "Error: nota invàlida".  
-**c)** Afig una felicitació addicional: si la qualificació és exactament 10, també mostrarà "Felicitats! Tens matrícula d'honor!".  
+4. **Live Server** - Servidor web local
+   - Permet veure pàgines web al navegador en temps real
+   - Molt útil per a desenvolupament web
 
-### Exercici 5
+### **Per a desenvolupament específic:**
 
-**a)** Escriu un programa que llig les hores treballades i la tarifa per hora, i calcule el salari brut (sense hores extres).  
-**b)** Amplia-lo perquè les hores que passen de 35 es paguen a 1,5 × tarifa.  
-**c)** Afig-hi el càlcul d'impostos segons trams:  
+5. **Python Extension Pack** - Tot per a Python
+   - Inclou múltiples extensions per treballar amb Python
+   - Depuració, formatat, execució de codi
 
-- Primeros 500 €: 0 %
-- Següents 400 €: 25 %
-- Resta: 45 %
+6. **Java Extension Pack** - Tot per a Java
+   - Gestió de projectes Java completa
+   - Integració amb eines de construcció
 
-**d)** Finalment, imprimeix nom, salari brut, total d'impostos i salari net, amb missatges clars.  
+## 3.4. Com instal·lar i gestionar extensions
 
-## Exercicis - Nivell avançat
+### **Pas a pas en VS Code:**
 
-### Exercici 6
+1. **Obrir el marketplace d'extensions**
+   - Fes clic a la icona d'extensions a la barra lateral (icona de quadrats)
+   - O usa la drecera de teclat: `Ctrl+Shift+X`
 
-Una botiga ven banderes personalitzades de la màxima qualitat i ens ha demanat fer un configurador que calcule el preu segons alt i ample. El preu base d'una bandera és d'un cèntim d'euro el centímetre quadrat. Si la volem amb un escut brodat, el preu s'incrementa en 2,50 € independentment de l'escut. Les despeses d'enviament són 3,25€. L'IVA ja està inclòs a totes les tarifes.
+2. **Buscar extensions**
+   - Escriu el nom de l'extensió al cercador
+   - Explora categories: Populars, Recomanades, Més descàrregades
 
-*Exemple*:
+3. **Instal·lar una extensió**
+   - Fes clic al botó "Install" de l'extensió desitjada
+   - Algunes necessiten reiniciar l'editor
 
-```plaintext
-Introduïu l'alçada de la bandera en cm: 20
-Ara introduïu l'amplada: 35  
-Vol escut brodat? (s/n): n  
-Gràcies. Aquí teniu el desglossament de la vostra compra.  
-Bandera de 700 cm2: 7,00 €  
-Sense escut: 0,00 €  
-Despeses d'enviament: 3,25 €  
-Total: 10,25 €  
-```
+4. **Configurar l'extensió**
+   - Moltes extensions funcionen immediatament
+   - Altres permeten personalitzar la configuració
 
-### Exercici 7
+5. **Desactivar o desinstal·lar**
+   - Pots desactivar extensions temporalment
+   - O desinstal·lar-les completament si no les necessites
 
-Una pastisseria ens ha demanat fer un programa que faça pressupostos de pastissos. El programa preguntarà primer de quin sabor vol l'usuari el pastís: poma, maduixa o xocolata. El pastís de poma val 18 euros i el de maduixa 16. En cas de seleccionar el pastís de xocolata, el programa ha de preguntar a més si la xocolata és negra o blanca; la primera opció val 14 euros i la segona 15. Finalment, es pregunta si s'hi afegeix nata i si es personalitza amb un nom; la nata suma 2,50 i l'escriptura del nom 2,75.
+## 3.7. Extensions recomanades per a estudiants
 
-*Exemple*:
+### **Per començar a programar:**
 
-```plaintext
-Trieu un sabor (poma, maduixa o xocolata): xocolata
-Quin tipus de xocolata voleu? (negre o blanc): negre
-Vol nata? (si o no): si
-Voleu posar-hi un nom? (si o no): no
-Pastís de xocolata negra: 14,00 €
-Amb nata: 2,50 €
-Total: 16,50 €
-```
+1. **Material Icon Theme** - Icones boniques per als arxius
+2. **One Dark Pro** - Tema fosc que redueix la fatiga ocular
+3. **GitLens** - Visualitza l'historial de canvis en el codi
+4. **Todo Highlight** - Ressalta comentaris pendents en el codi
+5. **Error Lens** - Mostra errors directament en la línia de codi
 
-### Exercici 8
+### **Per a desenvolupament web:**
 
-Implementa el joc pedra, paper y tisora. Primer, l'usuari 1 introdueix la seua jugada y després l'usuari 2.
+6. **Emmet** - Escriu HTML i CSS molt ràpidament
+7. **CSS Peek** - Veu definicions CSS des de l'HTML
+8. **REST Client** - Prova APIs sense eixir de l'editor
 
-*Exemple 1*:
+## 3.8. El futur de les extensions
 
-```plaintext
-Torn del jugador 1 (introdueix pedra, paper o tisora): paper
-Torn del jugador 2 (introdueix pedra, paper o tisora): paper
-Empat
-```
+Les extensions evolucionen constantment amb noves capacitats:
 
-*Exemple 2*:
+### **Tendències actuals:**
 
-```plaintext
-Torn del jugador 1 (introdueix pedra, paper o tisora): paper
-Torn del jugador 2 (introdueix pedra, paper o tisora): tisora
-Guanya el jugador 2
-```
+- **Intel·ligència artificial**: Extensions que escriuen codi automàticament
+- **Col·laboració en temps real**: Treballar simultàniament en el mateix codi
+- **Integració amb el núvol**: Sincronitzar tot entre dispositius
+- **Realitat virtual**: Programar en entorns 3D
 
-*Exemple 3*:
+### **Extensions emergents:**
 
-```plaintext
-Torn del jugador 1 (introdueix pedra, paper o tisora): pedra
-Torn del jugador 2 (introdueix pedra, paper o tisora): tisora
-Guanya el jugador 1
-```
-
-### Exercici 9
-
-Una empresa de missatgeria vol automatitzar el càlcul del preu d'enviaments de paquets segons el pes i la destinació. El programa demanarà primer el pes del paquet en kg.
-
-- Si el pes és inferior a 1 kg, el preu base és de 3 €.
-- Si el pes està entre 1 i 5 kg (inclosos), el preu base és de 5 €.
-- Si el pes supera els 5 kg, el preu base és de 10 €.
-
-Després, es pregunta si el destí és nacional o internacional:
-
-- En cas d'enviament internacional, s'aplica un suplement de 7,50 €.
-- Si l'enviament és nacional, no hi ha cap suplement.
-
-Finalment, es mostra el desglossament del preu total.
-
-*Exemple*:
-
-```plaintext
-Introdueix el pes del paquet (en kg): 2.5  
-És un enviament internacional? (s/n): s  
-Preu base per 2.5 kg: 5,00 €  
-Suplement per enviament internacional: 7,50 €  
-Total: 12,50 €  
-```
-
-### Exercici 10
-
-Una cafeteria et demana que programes un sistema per fer tiquets de comanda per esmorzars. Cada client pot triar una beguda (cafè, te o xocolata) i una pasta (croissant, ensaïmada o magdalena).
-
-Preus de les begudes:
-
-- Cafè: 1,20 €
-- Te: 1,00 €
-- Xocolata: 1,50 €
-
-Preus de les pastes:
-
-- Croissant: 1,10 €
-- Ensaïmada: 1,40 €
-- Magdalena: 0,90 €
-
-El programa també pregunta si es vol per emportar o per consumir al local.
-
-Si és per emportar, s'aplica un recàrrec de 0,25 € pel got i el recipient.
-
-*Exemple*:
-
-```plaintext
-Tria una beguda (cafè, te o xocolata): xocolata  
-Tria una pasta (croissant, ensaïmada o magdalena): ensaïmada  
-Vols per emportar? (s/n): s  
-Beguda (xocolata): 1,50 €  
-Pasta (ensaïmada): 1,40 €  
-Recàrrec per emportar: 0,25 €  
-Total: 3,15 €  
-```
+- **GitHub Copilot**: Assistent d'IA que suggereix codi
+- **Live Share**: Col·laboració en temps real
+- **Remote Development**: Programar en servidors remots
