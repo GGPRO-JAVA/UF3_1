@@ -52,8 +52,8 @@ Per a instal·lar-la:
 3. Busca "Extension Pack for Java"
 4. Fes clic en "Install"
 
-![VSCode - Extensions Java](/uf3/vscode_java_extensions.jpg)
-
+<!--![VSCode - Extensions Java](/uf3/vscode_java_extensions.jpg)
+-->
 ## 3. Configuració de l'Entorn Java
 
 ### 3.1. Verificació de la Configuració Java
@@ -86,8 +86,8 @@ Per a crear un nou projecte Java en VSCode:
    - **Maven**: Projecte amb Maven
    - **Gradle**: Projecte amb Gradle
 
-![VSCode - Crear Projecte Java](/uf3/vscode_create_project.jpg)
-
+<!--[VSCode - Crear Projecte Java](/uf3/vscode_create_project.jpg)
+-->
 ### 4.2. Estructura del Projecte
 
 Quan crees un projecte Java simple, VSCode genera l'estructura següent:
@@ -143,8 +143,8 @@ Per a executar una aplicació Java:
 - Navega fins a la carpeta del projecte
 - Executa: `java -cp src NomDeLaClasse`
 
-![VSCode - Executar Java](/uf3/vscode_run_java.jpg)
-
+<!--![VSCode - Executar Java](/uf3/vscode_run_java.jpg)
+-->
 ### 5.3. Gestió de Tasques
 
 VSCode permet configurar tasques personalitzades per a la compilació i execució:
@@ -205,8 +205,8 @@ Una vegada iniciada la depuració, tindràs accés als següents controls:
 - **Restart** (Ctrl+Shift+F5): Reinicia la sessió de depuració
 - **Stop** (Shift+F5): Atura la depuració
 
-![VSCode - Depuració](/uf3/vscode_debugging.jpg)
-
+<!--![VSCode - Depuració](/uf3/vscode_debugging.jpg)
+-->
 ### 6.4. Visualització de Variables
 
 Durant la depuració pots:
